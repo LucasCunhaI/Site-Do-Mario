@@ -112,3 +112,28 @@ button {
     z-index: 3;
     background: linear-gradient(109deg, rgba(10, 12, 16, 0.99) 15%, rgba(15, 12, 16, 0.7) 50%, rgba(10, 12, 16, 0.99) 85%);
  }
+
+ .copia-mario:hover{
+    height: 500px;
+    transition: 1s ease;
+ }
+
+ .logo-mario:hover{
+    width: 310px;
+    transition: 1s ease;
+}
+
+button:hover{
+    color: rgb(146, 146, 245);
+    font-size: 16px;
+    transition: 1s ease;
+    font-weight: 700;
+
+}
+.botaoenviar:hover{
+    color: rgb(50, 207, 63);
+    font-size: 16px;
+    transition: 1s ease;
+    font-weight: 700;
+
+}
