@@ -11,5 +11,5 @@ function cliqueiNoBotao(){
 
 function sumirFormulario(){
     formulario.style.left = "-22%"
-    mascara.style.visibility = "hidden"
+    mascara.style.visibility = hidden
 }
