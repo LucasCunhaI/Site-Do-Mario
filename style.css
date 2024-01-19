@@ -137,3 +137,36 @@ button:hover{
     font-weight: 700;
 
 }
+@media(max-width: 900px) {
+    p{
+        display: none;
+    }
+
+    body {
+        display: flex;
+        height: 100vh;
+        flex-direction: column;
+        align-items: center;
+    }
+        .caixa-pricipal{
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        .copia-mario {
+            height: auto;
+            width: 80vw;
+        }
+        .logo-mario {
+            width: 80vw;
+            height: auto;
+        }
+        .fale-conosco{
+            position: fixed;
+             left: -100%;
+             width: 240px;
+             height: 287px;
+        }
+}
+
